@@ -1,0 +1,23 @@
+public class EjemploForEach {
+    public static void main(String[] args) {
+        // Declaración de un arreglo de cadenas
+        String[] nombres = {"Juan", "María", "Pedro", "Ana", "Luis"};
+
+        // Uso del bucle for-each para recorrer el arreglo
+        for (String nombre : nombres) {
+            System.out.println(nombre);
+        }
+
+        System.out.println();
+
+        // Declaración de un arreglo de números enteros
+        int[] numeros = {10, 20, 30, 40, 50};
+
+        // Uso del bucle for-each para recorrer el arreglo y calcular la suma
+        int suma = 0;
+        for (int numero : numeros) {
+            suma += numero;
+        }
+        System.out.println("La suma de los números es: " + suma);
+    }
+}
